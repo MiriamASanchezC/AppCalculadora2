@@ -8,6 +8,11 @@
 #import <Cocoa/Cocoa.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+@property (weak) IBOutlet NSTextField *display;
+
+- (IBAction)pressEqual:(id)sender;
+- (IBAction)pressOp:(id)sender;
+- (IBAction)pressDigit:(id)sender;
 
 
 @end
