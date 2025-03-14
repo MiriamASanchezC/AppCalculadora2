@@ -13,6 +13,14 @@
 - (IBAction)pressEqual:(id)sender;
 - (IBAction)pressOp:(id)sender;
 - (IBAction)pressDigit:(id)sender;
+- (IBAction)pressInverse:(id)sender;
+- (IBAction)pressSqrt:(id)sender;
+- (IBAction)pressSin:(id)sender;
+- (IBAction)pressCos:(id)sender;
+- (IBAction)pressMemoryStore:(id)sender;
+- (IBAction)pressMemoryRecall:(id)sender;
+- (IBAction)pressMemoryAdd:(id)sender;
+- (IBAction)clear:(id)sender;
 
 
 @end
